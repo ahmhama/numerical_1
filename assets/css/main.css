@@ -1,0 +1,100 @@
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700|Open+Sans+Condensed:300,700");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.bisection {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	justify-content: center;
+	margin-top: 70px;
+}
+
+.matheditor-wrapper-mathfield {
+	width: 100% !important;
+	margin: 0 !important;
+	min-width: 100% !important;
+	padding: 0 !important;
+}
+
+.matheditor-wrapper-mathfield div {
+	width: 100% !important;
+	max-width: 100% !important;
+	text-align: center;
+	min-width: 100% !important;
+}
+
+table {
+	width: 100%;
+}
+
+tbody td {
+	width: 50%;
+	margin: 10px;
+	padding: 10px 20px;
+}
+
+tbody td label {
+	font-size: 12px;
+	font-weight: 700;
+}
+
+tbody td input {
+	width: 100%;
+	padding: 3px 10px;
+	border-radius: 5px;
+	border: 1px solid #000;
+}
+
+.flex-durition {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+#demo {
+	width: 230px;
+	height: 45px;
+	border-radius: 3px;
+	outline: none;
+	background-color: #1b2a2f;
+	color: #fff;
+	border: none;
+}
+
+.output, .output th, .output td {
+	border: 1px solid #000;
+	margin: 3px;
+	padding: 0.75em 1em 0.75em 1em;
+	text-align: center;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+#root{
+color: rgb(16, 204, 47);
+}
+.root{
+	padding: 10px 15px;
+	font-weight: 700;
+}
+@media (max-width: 767.98px) {
+	.output, .output th, .output td {
+		border: 1px solid #000;
+		margin: 0px;
+		padding: 6px;
+		font-size: 13px;
+	}
+}
